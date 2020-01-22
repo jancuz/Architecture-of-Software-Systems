@@ -4,13 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AofSSLab1ConsoleApp
+namespace Lab1PatternAbstractFactConsoleApp
 {
-    class Program
+    interface ISignalNormSensor: ISignalPlace
     {
-        static void Main(string[] args)
-        {
-
-        }
     }
 }
