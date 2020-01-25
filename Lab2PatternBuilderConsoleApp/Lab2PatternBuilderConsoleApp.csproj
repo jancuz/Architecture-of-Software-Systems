@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EC81FD20-D317-48E3-AD2A-66FCE7B45A70}</ProjectGuid>
+    <ProjectGuid>{E062AB11-F2A1-4A0E-9C89-9E7B37DE46FC}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AofSSLab1ConsoleApp</RootNamespace>
-    <AssemblyName>AofSSLab1ConsoleApp</AssemblyName>
+    <RootNamespace>Lab2PatternBuilderConsoleApp</RootNamespace>
+    <AssemblyName>Lab2PatternBuilderConsoleApp</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,14 +45,9 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Sensor.cs" />
-    <Compile Include="SensorPlace.cs" />
-    <Compile Include="SensorSignal.cs" />
-    <Compile Include="SensorType.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

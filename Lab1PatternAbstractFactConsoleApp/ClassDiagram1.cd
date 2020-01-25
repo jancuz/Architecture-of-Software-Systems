@@ -1,2 +1,177 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram /> 
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Lab1PatternAbstractFactConsoleApp.ClientCode">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAEAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClientCode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab1PatternAbstractFactConsoleApp.HumiditySensorFactory" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAABI=</HashCode>
+      <FileName>HumiditySensorFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Lab1PatternAbstractFactConsoleApp.HumiditySignalHighSensor" BaseTypeListCollapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>HumiditySignalHighSensor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Lab1PatternAbstractFactConsoleApp.HumiditySignalLowSensor" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>HumiditySignalLowSensor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Lab1PatternAbstractFactConsoleApp.HumiditySignalNormSensor" BaseTypeListCollapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>HumiditySignalNormSensor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Lab1PatternAbstractFactConsoleApp.LightSensorFactory" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAABI=</HashCode>
+      <FileName>LightSensorFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Lab1PatternAbstractFactConsoleApp.LightSignalHighSensor" BaseTypeListCollapsed="true">
+    <Position X="11" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>LightSignalHighSensor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Lab1PatternAbstractFactConsoleApp.LightSignalLowSensor" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>LightSignalLowSensor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Lab1PatternAbstractFactConsoleApp.LightSignalNormSensor" BaseTypeListCollapsed="true">
+    <Position X="14.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>LightSignalNormSensor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Lab1PatternAbstractFactConsoleApp.Program">
+    <Position X="7.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab1PatternAbstractFactConsoleApp.Sensor">
+    <Position X="5.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAIAAAAAAUAAAAAAAAA=</HashCode>
+      <FileName>Sensor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab1PatternAbstractFactConsoleApp.TemperatureSensorFactory" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAABI=</HashCode>
+      <FileName>TemperatureSensorFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Lab1PatternAbstractFactConsoleApp.TemperatureSignalHighSensor" BaseTypeListCollapsed="true">
+    <Position X="11" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>TemperatureSignalHighSensor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Lab1PatternAbstractFactConsoleApp.TemperatureSignalLowSensor" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>TemperatureSignalLowSensor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Lab1PatternAbstractFactConsoleApp.TemperatureSignalNormSensor" BaseTypeListCollapsed="true">
+    <Position X="14.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>TemperatureSignalNormSensor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Lab1PatternAbstractFactConsoleApp.ISensorsFactory">
+    <Position X="2.75" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAABI=</HashCode>
+      <FileName>ISensorsFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Lab1PatternAbstractFactConsoleApp.ISignalHighSensor">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ISignalHighSensor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Lab1PatternAbstractFactConsoleApp.ISignalLowSensor">
+    <Position X="2.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ISignalLowSensor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Lab1PatternAbstractFactConsoleApp.ISignalNormSensor">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ISignalNormSensor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Lab1PatternAbstractFactConsoleApp.ISignalPlace">
+    <Position X="2.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>ISignalPlace.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Lab1PatternAbstractFactConsoleApp.TypeOfSensor" Collapsed="true">
+    <Position X="9.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAEAAAAAAAAAAAABA=</HashCode>
+      <FileName>Sensor.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Lab1PatternAbstractFactConsoleApp.PlaceOfSensor" Collapsed="true">
+    <Position X="7.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAiAABAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Sensor.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Lab1PatternAbstractFactConsoleApp.TypeOfSignal" Collapsed="true">
+    <Position X="11" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAgAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Sensor.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
