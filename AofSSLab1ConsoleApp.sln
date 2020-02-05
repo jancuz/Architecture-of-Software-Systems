@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab1PatternAbstractFactCons
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab2PatternBuilderConsoleApp", "Lab2PatternBuilderConsoleApp\Lab2PatternBuilderConsoleApp.csproj", "{E062AB11-F2A1-4A0E-9C89-9E7B37DE46FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab4PatternCompositeConsoleApp", "Lab4PatternCompositeConsoleApp\Lab4PatternCompositeConsoleApp.csproj", "{0AA0588B-47C4-4988-8D52-ED84181C8AC4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{E062AB11-F2A1-4A0E-9C89-9E7B37DE46FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E062AB11-F2A1-4A0E-9C89-9E7B37DE46FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E062AB11-F2A1-4A0E-9C89-9E7B37DE46FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AA0588B-47C4-4988-8D52-ED84181C8AC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AA0588B-47C4-4988-8D52-ED84181C8AC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AA0588B-47C4-4988-8D52-ED84181C8AC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AA0588B-47C4-4988-8D52-ED84181C8AC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
