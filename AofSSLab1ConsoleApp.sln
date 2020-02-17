@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab2PatternBuilderConsoleAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab4PatternCompositeConsoleApp", "Lab4PatternCompositeConsoleApp\Lab4PatternCompositeConsoleApp.csproj", "{0AA0588B-47C4-4988-8D52-ED84181C8AC4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab6PatternProxyConsoleApp", "Lab6PatternProxyConsoleApp\Lab6PatternProxyConsoleApp.csproj", "{1F513DA9-E914-4F51-9000-875EE8CB8ABE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{0AA0588B-47C4-4988-8D52-ED84181C8AC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AA0588B-47C4-4988-8D52-ED84181C8AC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AA0588B-47C4-4988-8D52-ED84181C8AC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F513DA9-E914-4F51-9000-875EE8CB8ABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F513DA9-E914-4F51-9000-875EE8CB8ABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F513DA9-E914-4F51-9000-875EE8CB8ABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F513DA9-E914-4F51-9000-875EE8CB8ABE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
