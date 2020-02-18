@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab4PatternCompositeConsole
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab6PatternProxyConsoleApp", "Lab6PatternProxyConsoleApp\Lab6PatternProxyConsoleApp.csproj", "{1F513DA9-E914-4F51-9000-875EE8CB8ABE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab8PatternInterpreterConsoleApp", "Lab8PatternInterpreterConsoleApp\Lab8PatternInterpreterConsoleApp.csproj", "{3711D657-AC00-414B-B397-BAF44190A44E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{1F513DA9-E914-4F51-9000-875EE8CB8ABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F513DA9-E914-4F51-9000-875EE8CB8ABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F513DA9-E914-4F51-9000-875EE8CB8ABE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3711D657-AC00-414B-B397-BAF44190A44E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3711D657-AC00-414B-B397-BAF44190A44E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3711D657-AC00-414B-B397-BAF44190A44E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3711D657-AC00-414B-B397-BAF44190A44E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
