@@ -11,13 +11,12 @@ namespace Lab6PatternProxyConsoleApp
         static void Main(string[] args)
         {
             IComponent component = new ComponentStoreProxy();
-            // читаем первую страницу
+            // информация о датчике id=1 извлекается из "БД"
             Component component1 = component.GetComponent(1);
             component1.GetFunction();
-            // читаем вторую страницу
             Component component2 = component.GetComponent(2);
-            component2.GetFunction();
-            // возвращаемся на первую страницу    
+            component2.GetFunction();   
+            // информация о датчике id=1 извлекается из Proxy
             component1 = component.GetComponent(1);
             component1.GetFunction();
 
@@ -53,7 +52,6 @@ namespace Lab6PatternProxyConsoleApp
 
         public string TypeOfSensor { get; set; }
         public string TypeOfSignal { get; set; }
-        //public string Name = "Сенсор";
 
         public Sensor(int id, string name, DateTime date, string typeOfSensor, string typeOfSignal):base(id, name, date)
         {
@@ -93,6 +91,9 @@ namespace Lab6PatternProxyConsoleApp
         Component GetComponent(int id);
     }
 
+    /// <summary>
+    /// Реализация "БД" с информацией о показателях датчиков.
+    /// </summary>
     class ComponentContext
     {
         public List<Component> Components { get; set; }
@@ -128,6 +129,9 @@ namespace Lab6PatternProxyConsoleApp
         }
     }
 
+    /// <summary>
+    /// В Proxy реализовано считываение данных из "БД" и организация доступа к ним.
+    /// </summary>
     class ComponentStoreProxy: IComponent
     {
         List<Component> components;
